@@ -35,6 +35,7 @@ def main():
     pygame.display.update()
     pygame.event.clear()
     pygame.event.wait(0)
+    pygame.image.save(map.map, "screenshot.jpeg")
 
 
 
